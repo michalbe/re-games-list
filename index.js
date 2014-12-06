@@ -3,6 +3,7 @@
 var request = require('request');
 var cheerio = require('cheerio');
 var dataFromSrc = require('./data-from-src.js');
+var rarity = require('./data-to-rarity.js');
 
 var url = 'http://www.michaelchandler.residentevilcenter.net/';
 
@@ -50,13 +51,14 @@ var getTitles = function(platform, cb) {
     }
 
     $ = cheerio.load(body, { normalizeWhitespace: true });
-    var images = $('.grow img');
+    var images = $('img[width="400"]'); //$('.grow img');
     images.each(function() {
 
       var data = dataFromSrc($(this).attr('src'));
       titles.push({
         title: data.title,
-        region: data.region
+        region: data.region,
+        rarity: rarity($(this).siblings().text())
       });
     });
 
