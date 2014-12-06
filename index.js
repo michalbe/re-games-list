@@ -82,8 +82,8 @@ var start = function(){
         if(err) {
           console.log(err);
         } else {
-          console.log("List saved in ", outputFile);
-          console.log(titles.length + " games in total");
+          console.log('List saved in', outputFile);
+          console.log(titles.length + ' games in total');
         }
       });
     });
