@@ -35,6 +35,8 @@ var getRegion = function(title) {
       return regions[i];
     }
   }
+
+  return 'NO REGION';
 };
 
 module.exports = function(src) {
