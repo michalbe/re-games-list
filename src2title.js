@@ -4,7 +4,8 @@
 var changes = {
   'residentevil': 'Resident Evil ',
   '.jpg': ''
-}
+};
+
 module.exports = function(src) {
   src = src.split('/').pop();
 
