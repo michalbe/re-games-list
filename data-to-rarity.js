@@ -13,7 +13,7 @@ var getRarity = function(title) {
       return rarities[i];
     }
   }
-  return 'NO RARITY';
+  return 0;
 };
 
 module.exports = getRarity;
