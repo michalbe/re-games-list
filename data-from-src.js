@@ -73,7 +73,8 @@ var changes = {
   'pal': '',
   'vp': 'Value Plus',
   'cv': 'Code: Veronica',
-  'clas': 'Classics'
+  'clas': 'Classics',
+  'bigbox': 'Big Box'
 };
 
 var getRegion = function(title) {
@@ -98,8 +99,7 @@ module.exports = function(src) {
     src = src.replace(i, ' ' + changes[i] + ' ');
   }
 
-
-  src = src.replace('_', ' ');
+  src = src.replace(/\_/g, ' ');
   src = src.replace(/[ ]{2,}/g, ' ');
 
 
