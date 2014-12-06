@@ -37,9 +37,28 @@ var getPlatforms = function(cb) {
   });
 };
 
-// getTitles(platform, cb) {
-//
-// }
+var getTitles = function(platform, cb) {
+  var titles = [];
+
+  request(url + platform.url, function(err, req, body) {
+
+    if (err) {
+      cb(err);
+      return;
+    }
+
+    var element;
+    $ = cheerio.load(body, { normalizeWhitespace: true });
+    var images = $('.grow img');
+    images.each(function() {
+      titles.push({
+        title: $(this).text()
+      });
+    });
+
+    cb(null, titles);
+  });
+}
 
 var start = function(){
   getPlatforms(function(err, platforms) {
@@ -48,7 +67,9 @@ var start = function(){
       return;
     }
 
-    console.log(platforms);
+    getTitles(platforms[0], function(titles) {
+      console.log(titles);
+    });
   });
 };
 
