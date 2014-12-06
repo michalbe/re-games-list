@@ -7,6 +7,7 @@ String.prototype.capitalize = function() {
 var regions = {
   'ger': 4,
   'eu': 1,
+  'pal': 1,
   'usa': 2,
   'jap': 3,
   'aus': 5
@@ -56,6 +57,7 @@ var changes = {
   'revivalselection': 'Revival Selection',
   'theumbrellachronicles': 'The Umbrella Chronicles',
   'thedarksidechronicles':' The Dark Chronicles',
+  'revelations': 'Revelations',
   're ': 'Resident Evil',
   'bio ': 'Biohazard',
   'ess': 'Essentials',
@@ -67,7 +69,11 @@ var changes = {
   'gsse': 'Game Stop Special Edition',
   'rearchives': 'Archives:',
   'rezero': 'Resident Evil Zero',
-  'wiied': 'Wii Edition'
+  'wiied': 'Wii Edition',
+  'pal': '',
+  'vp': 'Value Plus',
+  'cv': 'Code: Veronica',
+  'clas': 'Classics'
 };
 
 var getRegion = function(title) {
