@@ -8,7 +8,7 @@ This package renders JSON list of all the published Resident Evil games using [p
 ### Usage ###
 
 ```bash
-$ npm install re-games-list
+$ npm install re-games-list -g
 ```
 
 and then
