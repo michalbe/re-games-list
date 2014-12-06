@@ -23,7 +23,7 @@ var changes = {
   'longbox': 'Long Box',
   'valueseries': 'Value Series',
   'dsv': 'Dualshock',
-  'ds': 'Dualshock',
+  ' ds': 'Dualshock',
   'surv': 'Survivor',
   'capk': 'CapKore',
   ' inum': '',
@@ -46,10 +46,13 @@ var changes = {
   'esse': 'Essentials',
   'alter': 'Alternative',
   'operationraccooncity': 'Operation: Raccoon City',
+  'chronicleshdselec': 'Chronicles HD Selection',
+  'revivalselection': 'Revival Selection',
   're ': 'Resident Evil',
   'bio ': 'Biohazard',
   'ess': 'Essentials',
-  '6le': '6 Limited Edition'
+  '6le': '6 Limited Edition',
+  'revelations': 'Revelations'
 };
 
 var getRegion = function(title) {
