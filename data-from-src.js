@@ -1,5 +1,9 @@
 'use strict';
 
+String.prototype.capitalize = function() {
+  return this.replace(/(?:^|\s)\S/g, function(a) { return a.toUpperCase(); });
+};
+
 var regions = {
   'ger': 4,
   'eu': 1,
@@ -51,8 +55,7 @@ var changes = {
   're ': 'Resident Evil',
   'bio ': 'Biohazard',
   'ess': 'Essentials',
-  '6le': '6 Limited Edition',
-  'revelations': 'Revelations'
+  '6le': '6 Limited Edition'
 };
 
 var getRegion = function(title) {
@@ -81,8 +84,9 @@ module.exports = function(src) {
   src = src.replace('_', ' ');
   src = src.replace(/[ ]{2,}/g, ' ');
 
+
   return {
     region: region,
-    title: src.trim()
+    title: src.capitalize().trim()
   };
 };
