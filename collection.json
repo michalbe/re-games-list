@@ -42,202 +42,6 @@
     "platform": "n64"
   },
   {
-    "id": "ps3-res-evi-5-1",
-    "title": "Resident Evil 5",
-    "region": 1,
-    "rarity": 1,
-    "platform": "ps3"
-  },
-  {
-    "id": "ps3-res-evi-5-lim-edi-1",
-    "title": "Resident Evil 5 Limited Edition",
-    "region": 1,
-    "rarity": 1,
-    "platform": "ps3"
-  },
-  {
-    "id": "ps3-res-evi-5-pla-1",
-    "title": "Resident Evil 5 Platinum",
-    "region": 1,
-    "rarity": 2,
-    "platform": "ps3"
-  },
-  {
-    "id": "ps3-res-evi-5-2",
-    "title": "Resident Evil 5",
-    "region": 2,
-    "rarity": 1,
-    "platform": "ps3"
-  },
-  {
-    "id": "ps3-res-evi-5-gre-hit-2",
-    "title": "Resident Evil 5 Greatest Hits",
-    "region": 2,
-    "rarity": 0,
-    "platform": "ps3"
-  },
-  {
-    "id": "ps3-bio-5-3",
-    "title": "Biohazard 5",
-    "region": 3,
-    "rarity": 0,
-    "platform": "ps3"
-  },
-  {
-    "id": "ps3-bio-5-the-bes-of-ps-3-3",
-    "title": "Biohazard 5 The Best Of PS 3",
-    "region": 3,
-    "rarity": 0,
-    "platform": "ps3"
-  },
-  {
-    "id": "ps3-res-evi-5-gol-1",
-    "title": "Resident Evil 5 Gold",
-    "region": 1,
-    "rarity": 2,
-    "platform": "ps3"
-  },
-  {
-    "id": "ps3-res-evi-5-gol-ess-1",
-    "title": "Resident Evil 5 Gold Essentials",
-    "region": 1,
-    "rarity": 1,
-    "platform": "ps3"
-  },
-  {
-    "id": "ps3-res-evi-5-gol-2",
-    "title": "Resident Evil 5 Gold",
-    "region": 2,
-    "rarity": 0,
-    "platform": "ps3"
-  },
-  {
-    "id": "ps3-bio-5-alt-3",
-    "title": "Biohazard 5 Alternative",
-    "region": 3,
-    "rarity": 2,
-    "platform": "ps3"
-  },
-  {
-    "id": "ps3-bio-5-alt-the-bes-of-ps-3-3",
-    "title": "Biohazard 5 Alternative The Best Of PS 3",
-    "region": 3,
-    "rarity": 0,
-    "platform": "ps3"
-  },
-  {
-    "id": "ps3-res-evi-ope-rac-cit-1",
-    "title": "Resident Evil Operation: Raccoon City",
-    "region": 1,
-    "rarity": 1,
-    "platform": "ps3"
-  },
-  {
-    "id": "ps3-res-evi-ope-rac-cit-ess-1",
-    "title": "Resident Evil Operation: Raccoon City Essentials",
-    "region": 1,
-    "rarity": 1,
-    "platform": "ps3"
-  },
-  {
-    "id": "ps3-res-evi-ope-rac-cit-2",
-    "title": "Resident Evil Operation: Raccoon City",
-    "region": 2,
-    "rarity": 0,
-    "platform": "ps3"
-  },
-  {
-    "id": "ps3-bio-ope-rac-cit-3",
-    "title": "Biohazard Operation: Raccoon City",
-    "region": 3,
-    "rarity": 0,
-    "platform": "ps3"
-  },
-  {
-    "id": "ps3-res-evi-6-1",
-    "title": "Resident Evil 6",
-    "region": 1,
-    "rarity": 1,
-    "platform": "ps3"
-  },
-  {
-    "id": "ps3-res-evi-6-lim-edi-1",
-    "title": "Resident Evil 6 Limited Edition",
-    "region": 1,
-    "rarity": 1,
-    "platform": "ps3"
-  },
-  {
-    "id": "ps3-res-evi-6-2",
-    "title": "Resident Evil 6",
-    "region": 2,
-    "rarity": 0,
-    "platform": "ps3"
-  },
-  {
-    "id": "ps3-bio-6-3",
-    "title": "Biohazard 6",
-    "region": 3,
-    "rarity": 2,
-    "platform": "ps3"
-  },
-  {
-    "id": "ps3-bio-6-the-bes-of-ps-3-3",
-    "title": "Biohazard 6 The Best Of PS 3",
-    "region": 3,
-    "rarity": 0,
-    "platform": "ps3"
-  },
-  {
-    "id": "ps3-bio-chr-hd-sel-3",
-    "title": "Biohazard Chronicles HD Selection",
-    "region": 3,
-    "rarity": 2,
-    "platform": "ps3"
-  },
-  {
-    "id": "ps3-bio-chr-hd-sel-the-bes-of-ps-3-3",
-    "title": "Biohazard Chronicles HD Selection The Best Of PS 3",
-    "region": 3,
-    "rarity": 0,
-    "platform": "ps3"
-  },
-  {
-    "id": "ps3-bio-rev-sel-3",
-    "title": "Biohazard Revival Selection",
-    "region": 3,
-    "rarity": 2,
-    "platform": "ps3"
-  },
-  {
-    "id": "ps3-bio-rev-sel-the-bes-of-ps-3-3",
-    "title": "Biohazard Revival Selection The Best Of PS 3",
-    "region": 3,
-    "rarity": 0,
-    "platform": "ps3"
-  },
-  {
-    "id": "ps3-res-evi-rev-1",
-    "title": "Resident Evil Revelations",
-    "region": 1,
-    "rarity": 1,
-    "platform": "ps3"
-  },
-  {
-    "id": "ps3-res-evi-rev-2",
-    "title": "Resident Evil Revelations",
-    "region": 2,
-    "rarity": 0,
-    "platform": "ps3"
-  },
-  {
-    "id": "ps3-bio-rev-3",
-    "title": "Biohazard Revelations",
-    "region": 3,
-    "rarity": 2,
-    "platform": "ps3"
-  },
-  {
     "id": "ps1-res-evi-1",
     "title": "Resident Evil",
     "region": 1,
@@ -460,6 +264,202 @@
     "region": 3,
     "rarity": 4,
     "platform": "ps1"
+  },
+  {
+    "id": "ps3-res-evi-5-1",
+    "title": "Resident Evil 5",
+    "region": 1,
+    "rarity": 1,
+    "platform": "ps3"
+  },
+  {
+    "id": "ps3-res-evi-5-lim-edi-1",
+    "title": "Resident Evil 5 Limited Edition",
+    "region": 1,
+    "rarity": 1,
+    "platform": "ps3"
+  },
+  {
+    "id": "ps3-res-evi-5-pla-1",
+    "title": "Resident Evil 5 Platinum",
+    "region": 1,
+    "rarity": 2,
+    "platform": "ps3"
+  },
+  {
+    "id": "ps3-res-evi-5-2",
+    "title": "Resident Evil 5",
+    "region": 2,
+    "rarity": 1,
+    "platform": "ps3"
+  },
+  {
+    "id": "ps3-res-evi-5-gre-hit-2",
+    "title": "Resident Evil 5 Greatest Hits",
+    "region": 2,
+    "rarity": 0,
+    "platform": "ps3"
+  },
+  {
+    "id": "ps3-bio-5-3",
+    "title": "Biohazard 5",
+    "region": 3,
+    "rarity": 0,
+    "platform": "ps3"
+  },
+  {
+    "id": "ps3-bio-5-the-bes-of-ps-3-3",
+    "title": "Biohazard 5 The Best Of PS 3",
+    "region": 3,
+    "rarity": 0,
+    "platform": "ps3"
+  },
+  {
+    "id": "ps3-res-evi-5-gol-1",
+    "title": "Resident Evil 5 Gold",
+    "region": 1,
+    "rarity": 2,
+    "platform": "ps3"
+  },
+  {
+    "id": "ps3-res-evi-5-gol-ess-1",
+    "title": "Resident Evil 5 Gold Essentials",
+    "region": 1,
+    "rarity": 1,
+    "platform": "ps3"
+  },
+  {
+    "id": "ps3-res-evi-5-gol-2",
+    "title": "Resident Evil 5 Gold",
+    "region": 2,
+    "rarity": 0,
+    "platform": "ps3"
+  },
+  {
+    "id": "ps3-bio-5-alt-3",
+    "title": "Biohazard 5 Alternative",
+    "region": 3,
+    "rarity": 2,
+    "platform": "ps3"
+  },
+  {
+    "id": "ps3-bio-5-alt-the-bes-of-ps-3-3",
+    "title": "Biohazard 5 Alternative The Best Of PS 3",
+    "region": 3,
+    "rarity": 0,
+    "platform": "ps3"
+  },
+  {
+    "id": "ps3-res-evi-ope-rac-cit-1",
+    "title": "Resident Evil Operation: Raccoon City",
+    "region": 1,
+    "rarity": 1,
+    "platform": "ps3"
+  },
+  {
+    "id": "ps3-res-evi-ope-rac-cit-ess-1",
+    "title": "Resident Evil Operation: Raccoon City Essentials",
+    "region": 1,
+    "rarity": 1,
+    "platform": "ps3"
+  },
+  {
+    "id": "ps3-res-evi-ope-rac-cit-2",
+    "title": "Resident Evil Operation: Raccoon City",
+    "region": 2,
+    "rarity": 0,
+    "platform": "ps3"
+  },
+  {
+    "id": "ps3-bio-ope-rac-cit-3",
+    "title": "Biohazard Operation: Raccoon City",
+    "region": 3,
+    "rarity": 0,
+    "platform": "ps3"
+  },
+  {
+    "id": "ps3-res-evi-6-1",
+    "title": "Resident Evil 6",
+    "region": 1,
+    "rarity": 1,
+    "platform": "ps3"
+  },
+  {
+    "id": "ps3-res-evi-6-lim-edi-1",
+    "title": "Resident Evil 6 Limited Edition",
+    "region": 1,
+    "rarity": 1,
+    "platform": "ps3"
+  },
+  {
+    "id": "ps3-res-evi-6-2",
+    "title": "Resident Evil 6",
+    "region": 2,
+    "rarity": 0,
+    "platform": "ps3"
+  },
+  {
+    "id": "ps3-bio-6-3",
+    "title": "Biohazard 6",
+    "region": 3,
+    "rarity": 2,
+    "platform": "ps3"
+  },
+  {
+    "id": "ps3-bio-6-the-bes-of-ps-3-3",
+    "title": "Biohazard 6 The Best Of PS 3",
+    "region": 3,
+    "rarity": 0,
+    "platform": "ps3"
+  },
+  {
+    "id": "ps3-bio-chr-hd-sel-3",
+    "title": "Biohazard Chronicles HD Selection",
+    "region": 3,
+    "rarity": 2,
+    "platform": "ps3"
+  },
+  {
+    "id": "ps3-bio-chr-hd-sel-the-bes-of-ps-3-3",
+    "title": "Biohazard Chronicles HD Selection The Best Of PS 3",
+    "region": 3,
+    "rarity": 0,
+    "platform": "ps3"
+  },
+  {
+    "id": "ps3-bio-rev-sel-3",
+    "title": "Biohazard Revival Selection",
+    "region": 3,
+    "rarity": 2,
+    "platform": "ps3"
+  },
+  {
+    "id": "ps3-bio-rev-sel-the-bes-of-ps-3-3",
+    "title": "Biohazard Revival Selection The Best Of PS 3",
+    "region": 3,
+    "rarity": 0,
+    "platform": "ps3"
+  },
+  {
+    "id": "ps3-res-evi-rev-1",
+    "title": "Resident Evil Revelations",
+    "region": 1,
+    "rarity": 1,
+    "platform": "ps3"
+  },
+  {
+    "id": "ps3-res-evi-rev-2",
+    "title": "Resident Evil Revelations",
+    "region": 2,
+    "rarity": 0,
+    "platform": "ps3"
+  },
+  {
+    "id": "ps3-bio-rev-3",
+    "title": "Biohazard Revelations",
+    "region": 3,
+    "rarity": 2,
+    "platform": "ps3"
   },
   {
     "id": "ps2-res-evi-sur-2-1",
@@ -789,6 +789,48 @@
     "region": 3,
     "rarity": 0,
     "platform": "3ds"
+  },
+  {
+    "id": "wiiu-res-evi-rev-1",
+    "title": "Resident Evil Revelations",
+    "region": 1,
+    "rarity": 1,
+    "platform": "wiiu"
+  },
+  {
+    "id": "wiiu-res-evi-rev-2",
+    "title": "Resident Evil Revelations",
+    "region": 2,
+    "rarity": 0,
+    "platform": "wiiu"
+  },
+  {
+    "id": "wiiu-bio-rev-3",
+    "title": "Biohazard Revelations",
+    "region": 3,
+    "rarity": 0,
+    "platform": "wiiu"
+  },
+  {
+    "id": "ss-res-evi-1",
+    "title": "Resident Evil",
+    "region": 1,
+    "rarity": 2,
+    "platform": "ss"
+  },
+  {
+    "id": "ss-res-evi-2",
+    "title": "Resident Evil",
+    "region": 2,
+    "rarity": 2,
+    "platform": "ss"
+  },
+  {
+    "id": "ss-bio-3",
+    "title": "Biohazard",
+    "region": 3,
+    "rarity": 1,
+    "platform": "ss"
   },
   {
     "id": "dc-res-evi-2-1",
@@ -1601,47 +1643,5 @@
     "region": 8,
     "rarity": 0,
     "platform": "pc"
-  },
-  {
-    "id": "ss-res-evi-1",
-    "title": "Resident Evil",
-    "region": 1,
-    "rarity": 2,
-    "platform": "ss"
-  },
-  {
-    "id": "ss-res-evi-2",
-    "title": "Resident Evil",
-    "region": 2,
-    "rarity": 2,
-    "platform": "ss"
-  },
-  {
-    "id": "ss-bio-3",
-    "title": "Biohazard",
-    "region": 3,
-    "rarity": 1,
-    "platform": "ss"
-  },
-  {
-    "id": "wiiu-res-evi-rev-1",
-    "title": "Resident Evil Revelations",
-    "region": 1,
-    "rarity": 1,
-    "platform": "wiiu"
-  },
-  {
-    "id": "wiiu-res-evi-rev-2",
-    "title": "Resident Evil Revelations",
-    "region": 2,
-    "rarity": 0,
-    "platform": "wiiu"
-  },
-  {
-    "id": "wiiu-bio-rev-3",
-    "title": "Biohazard Revelations",
-    "region": 3,
-    "rarity": 0,
-    "platform": "wiiu"
   }
 ]

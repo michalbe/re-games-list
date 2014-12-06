@@ -5,6 +5,7 @@ var cheerio = require('cheerio');
 var async = require('async');
 var fs = require('fs');
 
+var path = process.cwd();
 var dataFromSrc = require('./data-from-src.js');
 var rarity = require('./data-to-rarity.js');
 
@@ -79,7 +80,7 @@ var start = function(){
     }
 
     async.each(platforms, getTitles, function(err) {
-      fs.writeFile(outputFile, JSON.stringify(titles, 2, 2), function(err) {
+      fs.writeFile(path + '/' + outputFile, JSON.stringify(titles, 2, 2), function(err) {
         if(err) {
           console.log(err);
         } else {
