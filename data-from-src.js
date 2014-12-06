@@ -39,8 +39,17 @@ var changes = {
   'bestprice': '(Best Price!)',
   '4le': '4 Limited Edition',
   '4pe': '4 Premium Edition',
-  'tbops2': 'The Best of PS2',
-  'ost': 'O.S.T.'
+  'tbops': 'The Best of PS',
+  'ost': 'O.S.T.',
+  '5le': '5 Limited Edition',
+  'gold': 'Gold',
+  'esse': 'Essentials',
+  'alter': 'Alternative',
+  'operationraccooncity': 'Operation: Raccoon City',
+  're ': 'Resident Evil',
+  'bio ': 'Biohazard',
+  'ess': 'Essentials',
+  '6le': '6 Limited Edition'
 };
 
 var getRegion = function(title) {
