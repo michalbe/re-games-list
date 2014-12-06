@@ -27,7 +27,20 @@ var changes = {
   'surv': 'Survivor',
   'capk': 'CapKore',
   ' inum': '',
-  'gh': 'Greatest Hits'
+  'gh': 'Greatest Hits',
+  'thebest': 'PS2 The Best',
+  'deadaim': 'Dead Aim',
+  'outbreak': 'Outbreak',
+  'file2': 'File #2',
+  'cvdemodmc': 'Code: Veronica X + Demo Devil May Cry',
+  'cvx': 'Code: Veronica X',
+  '5thanniv': '5th Anniversary',
+  'cvcomplete': 'Code: Veronica X (Complete)',
+  'bestprice': '(Best Price!)',
+  '4le': '4 Limited Edition',
+  '4pe': '4 Premium Edition',
+  'tbops2': 'The Best of PS2',
+  'ost': 'O.S.T.'
 };
 
 var getRegion = function(title) {

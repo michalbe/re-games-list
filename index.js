@@ -73,7 +73,7 @@ var start = function(){
       return;
     }
 
-    getTitles(platforms[0], function(err, titles) {
+    getTitles(platforms[1], function(err, titles) {
       console.log(titles);
     });
   });
