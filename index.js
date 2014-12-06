@@ -2,15 +2,18 @@
 
 var request = require('request');
 var cheerio = require('cheerio');
+var async = require('async');
+
 var dataFromSrc = require('./data-from-src.js');
 var rarity = require('./data-to-rarity.js');
 
 var url = 'http://www.michaelchandler.residentevilcenter.net/';
 
 var $;
-var platforms = [];
+var titles = [];
 
 var getPlatforms = function(cb) {
+  var platforms = [];
   request(url, function(err, req, body) {
 
     if (err) {
@@ -41,8 +44,6 @@ var getPlatforms = function(cb) {
 };
 
 var getTitles = function(platform, cb) {
-  var titles = [];
-
   request(url + platform.url, function(err, req, body) {
 
     if (err) {
@@ -62,7 +63,7 @@ var getTitles = function(platform, cb) {
       });
     });
 
-    cb(null, titles);
+    cb();
   });
 };
 
@@ -73,9 +74,14 @@ var start = function(){
       return;
     }
 
-    getTitles(platforms[13], function(err, titles) {
+    async.each(platforms, getTitles, function(err){
       console.log(titles);
+      console.log(titles.length);
     });
+    // getTitles(platforms[1], function(err, titles) {
+    //   console.log(titles);
+    // });
+
   });
 };
 
