@@ -53,8 +53,10 @@ var getTitles = function(platform, cb) {
     var images = $('.grow img');
     images.each(function() {
 
+      var data = dataFromSrc($(this).attr('src'));
       titles.push({
-        title: dataFromSrc($(this).attr('src'))
+        title: data.title,
+        region: data.region
       });
     });
 
