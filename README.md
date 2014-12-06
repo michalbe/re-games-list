@@ -8,15 +8,15 @@ This package renders JSON list of all the published Resident Evil games using [p
 ### Usage ###
 
 ```bash
-npm install re-games-list
+$ npm install re-games-list
 ```
 
 and then
 ```bash
-npm run generate
+$ re-games-list
 ```
 
-List will be generated in `collection.json`, JSON will look kind of like this:
+List will be generated in `collection.json` ([here](collection.json)), JSON will look kind of like this:
 ```javascript
 [{
   "id": "pc-res-evi-big-box-whi-lab-0", // unique ID
