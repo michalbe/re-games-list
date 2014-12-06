@@ -37,11 +37,19 @@ var getPlatforms = function(cb) {
   });
 };
 
-getPlatforms(function(err, platforms) {
-  if (err) {
-    console.log(err);
-    return;
-  }
+getTitles(platform, cb) {
 
-  console.log(platforms);
-});
+}
+
+var start = function(){
+  getPlatforms(function(err, platforms) {
+    if (err) {
+      console.log(err);
+      return;
+    }
+
+    console.log(platforms);
+  });
+}
+
+start();
