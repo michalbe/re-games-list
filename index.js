@@ -78,20 +78,20 @@ var start = function(){
       return;
     }
 
-    // async.each(platforms, getTitles, function(err) {
-    //   fs.writeFile(outputFile, JSON.stringify(titles, 2, 2), function(err) {
-    //     if(err) {
-    //       console.log(err);
-    //     } else {
-    //       console.log('List saved in', outputFile);
-    //       console.log(titles.length + ' games in total');
-    //     }
-    //   });
-    // });
-
-    getTitles(platforms[5], function(err) {
-      console.log(titles);
+    async.each(platforms, getTitles, function(err) {
+      fs.writeFile(outputFile, JSON.stringify(titles, 2, 2), function(err) {
+        if(err) {
+          console.log(err);
+        } else {
+          console.log('List saved in', outputFile);
+          console.log(titles.length + ' games in total');
+        }
+      });
     });
+
+    // getTitles(platforms[5], function(err) {
+    //   console.log(titles);
+    // });
 
   });
 };
