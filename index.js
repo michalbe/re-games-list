@@ -2,11 +2,13 @@
 
 var request = require('request');
 var cheerio = require('cheerio');
-//var async = require('async');
+var async = require('async');
+var fs = require('fs');
 
 var dataFromSrc = require('./data-from-src.js');
 var rarity = require('./data-to-rarity.js');
 
+var outputFile = 'collection.json';
 var url = 'http://www.michaelchandler.residentevilcenter.net/';
 
 var $;
@@ -59,7 +61,8 @@ var getTitles = function(platform, cb) {
       titles.push({
         title: data.title,
         region: data.region,
-        rarity: rarity($(this).siblings().text())
+        rarity: rarity($(this).siblings().text()),
+        platform: data.platform
       });
     });
 
@@ -74,13 +77,20 @@ var start = function(){
       return;
     }
 
-    // async.each(platforms, getTitles, function(err){
-    //   console.log(titles);
-    //   console.log(titles.length);
-    // });
-    getTitles(platforms[5], function(err) {
-      console.log(titles);
+    async.each(platforms, getTitles, function(err) {
+      fs.writeFile(outputFile, JSON.stringify(titles, 2, 2), function(err) {
+        if(err) {
+          console.log(err);
+        } else {
+          console.log("List saved in ", outputFile);
+          console.log(titles.length + " games in total");
+        }
+      });
     });
+
+    // getTitles(platforms[5], function(err) {
+    //   console.log(titles);
+    // });
 
   });
 };
