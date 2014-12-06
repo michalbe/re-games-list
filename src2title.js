@@ -7,7 +7,7 @@ var regions = {
   'usa': 2,
   'us': 2,
   'jap': 3
-}
+};
 
 var changes = {
   '.jpg': '',
@@ -36,7 +36,7 @@ var getRegion = function(title) {
       return regions[i];
     }
   }
-}
+};
 
 module.exports = function(src) {
   src = src.split('/').pop();
@@ -46,7 +46,7 @@ module.exports = function(src) {
     src = src.replace('_' + i, '');
   }
 
-  for (var i in changes) {
+  for (i in changes) {
     src = src.replace(i, ' ' + changes[i] + ' ');
   }
 
@@ -57,5 +57,5 @@ module.exports = function(src) {
   return {
     region: region,
     title: src.trim()
-  }
+  };
 };
