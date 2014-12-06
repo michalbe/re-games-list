@@ -54,6 +54,8 @@ var changes = {
   'operationraccooncity': 'Operation: Raccoon City',
   'chronicleshdselec': 'Chronicles HD Selection',
   'revivalselection': 'Revival Selection',
+  'theumbrellachronicles': 'The Umbrella Chronicles',
+  'thedarksidechronicles':' The Dark Chronicles',
   're ': 'Resident Evil',
   'bio ': 'Biohazard',
   'ess': 'Essentials',
@@ -62,7 +64,10 @@ var changes = {
   'playc': 'Player\'s Choice',
   '4pc': '4 Player\'s Choice',
   'colleced': 'Collector\'s Edition',
-  'gsse': 'Game Stop Special Edition'
+  'gsse': 'Game Stop Special Edition',
+  'rearchives': 'Archives:',
+  'rezero': 'Resident Evil Zero',
+  'wiied': 'Wii Edition'
 };
 
 var getRegion = function(title) {
