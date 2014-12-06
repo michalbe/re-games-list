@@ -8,8 +8,8 @@ var regions = {
   'ger': 4,
   'eu': 1,
   'usa': 2,
-  'us': 2,
-  'jap': 3
+  'jap': 3,
+  'aus': 5
 };
 
 var changes = {
@@ -42,6 +42,7 @@ var changes = {
   'cvcomplete': 'Code: Veronica X (Complete)',
   'bestprice': '(Best Price!)',
   'bp': '(Best Price!)',
+  '4led': '4 Limited Evil Edition',
   '4le': '4 Limited Edition',
   '4pe': '4 Premium Edition',
   'tbops': 'The Best of PS',
@@ -57,7 +58,11 @@ var changes = {
   'bio ': 'Biohazard',
   'ess': 'Essentials',
   '6le': '6 Limited Edition',
-  'themercs': 'The Mercenaries 3D'
+  'themercs': 'The Mercenaries 3D',
+  'playc': 'Player\'s Choice',
+  '4pc': '4 Player\'s Choice',
+  'colleced': 'Collector\'s Edition',
+  'gsse': 'Game Stop Special Edition'
 };
 
 var getRegion = function(title) {
