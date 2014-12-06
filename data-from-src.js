@@ -5,12 +5,15 @@ String.prototype.capitalize = function() {
 };
 
 var regions = {
+  'rus': 6,
   'ger': 4,
+  'pol': 7,
   'eu': 1,
   'pal': 1,
   'usa': 2,
   'jap': 3,
-  'aus': 5
+  'aus': 5,
+  'kor': 8
 };
 
 var changes = {
@@ -74,7 +77,17 @@ var changes = {
   'vp': 'Value Plus',
   'cv': 'Code: Veronica',
   'clas': 'Classics',
-  'bigbox': 'Big Box'
+  'bigbox': 'Big Box',
+  'dvd': 'DVD',
+  'dmultimedia': 'Dinamic Multimedia',
+  'russ': 'Russian Edition',
+  ' ss': 'Sourcenext Selection',
+  'exp': 'Xplosive',
+  'rc': 'Red Collection',
+  'cg': 'Code Game',
+  'uhde': 'Ultimate HD Edition',
+  'remzer': 'Remake & Zero',
+  'polish': 'Polish Edition'
 };
 
 var getRegion = function(title) {

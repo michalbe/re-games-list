@@ -4,7 +4,8 @@ var rarities = {
   'very common': 1,
   'common': 2,
   'uncommon': 3,
-  'rare': 4
+  'rare': 4,
+  'very rare': 5
 };
 
 var getRarity = function(title) {
