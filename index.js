@@ -80,14 +80,18 @@ var start = function(){
     }
 
     async.each(platforms, getTitles, function(err) {
-      fs.writeFile(path + '/' + outputFile, JSON.stringify(titles, 2, 2), function(err) {
-        if(err) {
-          console.log(err);
-        } else {
-          console.log('List saved in', outputFile);
-          console.log(titles.length + ' games in total');
+      fs.writeFile(
+        path + '/' + outputFile,
+        JSON.stringify(titles, 2, 2),
+        function(err) {
+          if(err) {
+            console.log(err);
+          } else {
+            console.log('List saved in', outputFile);
+            console.log(titles.length + ' games in total');
+          }
         }
-      });
+      );
     });
 
     // getTitles(platforms[5], function(err) {
