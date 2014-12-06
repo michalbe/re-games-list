@@ -41,6 +41,7 @@ var changes = {
   '5thanniv': '5th Anniversary',
   'cvcomplete': 'Code: Veronica X (Complete)',
   'bestprice': '(Best Price!)',
+  'bp': '(Best Price!)',
   '4le': '4 Limited Edition',
   '4pe': '4 Premium Edition',
   'tbops': 'The Best of PS',
@@ -55,7 +56,8 @@ var changes = {
   're ': 'Resident Evil',
   'bio ': 'Biohazard',
   'ess': 'Essentials',
-  '6le': '6 Limited Edition'
+  '6le': '6 Limited Edition',
+  'themercs': 'The Mercenaries 3D'
 };
 
 var getRegion = function(title) {
