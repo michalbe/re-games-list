@@ -2,7 +2,7 @@
 
 var request = require('request');
 var cheerio = require('cheerio');
-var src2title = require('./src2title.js');
+var dataFromSrc = require('./data-from-src.js');
 
 var url = 'http://www.michaelchandler.residentevilcenter.net/';
 
@@ -54,7 +54,7 @@ var getTitles = function(platform, cb) {
     images.each(function() {
 
       titles.push({
-        title: src2title($(this).attr('src'))
+        title: dataFromSrc($(this).attr('src'))
       });
     });
 
