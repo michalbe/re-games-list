@@ -2,7 +2,7 @@
 
 var request = require('request');
 var cheerio = require('cheerio');
-var async = require('async');
+//var async = require('async');
 
 var dataFromSrc = require('./data-from-src.js');
 var rarity = require('./data-to-rarity.js');
@@ -74,13 +74,13 @@ var start = function(){
       return;
     }
 
-    async.each(platforms, getTitles, function(err){
-      console.log(titles);
-      console.log(titles.length);
-    });
-    // getTitles(platforms[1], function(err, titles) {
+    // async.each(platforms, getTitles, function(err){
     //   console.log(titles);
+    //   console.log(titles.length);
     // });
+    getTitles(platforms[5], function(err) {
+      console.log(titles);
+    });
 
   });
 };
