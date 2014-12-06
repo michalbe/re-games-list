@@ -26,7 +26,8 @@ var changes = {
   'ds': 'Dualshock',
   'surv': 'Survivor',
   'capk': 'CapKore',
-  ' inum': ''
+  ' inum': '',
+  'gh': 'Greatest Hits'
 };
 
 var getRegion = function(title) {
