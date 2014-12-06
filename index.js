@@ -37,9 +37,9 @@ var getPlatforms = function(cb) {
   });
 };
 
-getTitles(platform, cb) {
-
-}
+// getTitles(platform, cb) {
+//
+// }
 
 var start = function(){
   getPlatforms(function(err, platforms) {
@@ -50,6 +50,6 @@ var start = function(){
 
     console.log(platforms);
   });
-}
+};
 
 start();
