@@ -50,8 +50,9 @@ var getTitles = function(platform, cb) {
     $ = cheerio.load(body, { normalizeWhitespace: true });
     var images = $('.grow img');
     images.each(function() {
+
       titles.push({
-        title: $(this).text()
+        title: $(this).attr('src')
       });
     });
 
@@ -66,7 +67,7 @@ var start = function(){
       return;
     }
 
-    getTitles(platforms[0], function(titles) {
+    getTitles(platforms[0], function(err, titles) {
       console.log(titles);
     });
   });
