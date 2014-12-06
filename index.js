@@ -59,6 +59,7 @@ var getTitles = function(platform, cb) {
 
       var data = dataFromSrc($(this).attr('src'));
       titles.push({
+        id: data.id,
         title: data.title,
         region: data.region,
         rarity: rarity($(this).siblings().text()),
@@ -77,20 +78,20 @@ var start = function(){
       return;
     }
 
-    async.each(platforms, getTitles, function(err) {
-      fs.writeFile(outputFile, JSON.stringify(titles, 2, 2), function(err) {
-        if(err) {
-          console.log(err);
-        } else {
-          console.log('List saved in', outputFile);
-          console.log(titles.length + ' games in total');
-        }
-      });
-    });
-
-    // getTitles(platforms[5], function(err) {
-    //   console.log(titles);
+    // async.each(platforms, getTitles, function(err) {
+    //   fs.writeFile(outputFile, JSON.stringify(titles, 2, 2), function(err) {
+    //     if(err) {
+    //       console.log(err);
+    //     } else {
+    //       console.log('List saved in', outputFile);
+    //       console.log(titles.length + ' games in total');
+    //     }
+    //   });
     // });
+
+    getTitles(platforms[5], function(err) {
+      console.log(titles);
+    });
 
   });
 };
