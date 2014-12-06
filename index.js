@@ -35,7 +35,7 @@ var getPlatforms = function(cb) {
 
     cb(null, platforms);
   });
-}
+};
 
 getPlatforms(function(err, platforms) {
   if (err) {
