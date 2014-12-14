@@ -101,7 +101,7 @@ var getRegion = function(title) {
 };
 
 var ID = function(region, platform, title) {
-  title = title.replace(/[\!\#\(\)]/gi, '').split(' ');
+  title = title.replace(/[\!\#\&\(\)]/gi, '').split(' ');
   title = title.map(function(el) {
     return el.substr(0, 3);
   });
