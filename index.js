@@ -2,14 +2,20 @@
 
 var request = require('request');
 var cheerio = require('cheerio');
-var src2title = require('./src2title.js');
+var async = require('async');
+var fs = require('fs');
 
+var dataFromSrc = require('./data-from-src.js');
+var rarity = require('./data-to-rarity.js');
+
+var outputFile = 'collection.json';
 var url = 'http://www.michaelchandler.residentevilcenter.net/';
 
 var $;
-var platforms = [];
+var titles = [];
 
 var getPlatforms = function(cb) {
+  var platforms = [];
   request(url, function(err, req, body) {
 
     if (err) {
@@ -40,8 +46,6 @@ var getPlatforms = function(cb) {
 };
 
 var getTitles = function(platform, cb) {
-  var titles = [];
-
   request(url + platform.url, function(err, req, body) {
 
     if (err) {
@@ -50,15 +54,19 @@ var getTitles = function(platform, cb) {
     }
 
     $ = cheerio.load(body, { normalizeWhitespace: true });
-    var images = $('.grow img');
+    var images = $('img[width="400"]'); //$('.grow img');
     images.each(function() {
 
+      var data = dataFromSrc($(this).attr('src'));
       titles.push({
-        title: src2title($(this).attr('src'))
+        title: data.title,
+        region: data.region,
+        rarity: rarity($(this).siblings().text()),
+        platform: data.platform
       });
     });
 
-    cb(null, titles);
+    cb();
   });
 };
 
@@ -69,9 +77,21 @@ var start = function(){
       return;
     }
 
-    getTitles(platforms[0], function(err, titles) {
-      console.log(titles);
+    async.each(platforms, getTitles, function(err) {
+      fs.writeFile(outputFile, JSON.stringify(titles, 2, 2), function(err) {
+        if(err) {
+          console.log(err);
+        } else {
+          console.log('List saved in', outputFile);
+          console.log(titles.length + ' games in total');
+        }
+      });
     });
+
+    // getTitles(platforms[5], function(err) {
+    //   console.log(titles);
+    // });
+
   });
 };
 
