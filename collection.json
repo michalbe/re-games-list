@@ -42,6 +42,251 @@
     "platform": "n64"
   },
   {
+    "id": "ps2-res-evi-sur-2-1",
+    "title": "Resident Evil Survivor 2",
+    "region": 1,
+    "rarity": 2,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-bio-gun-sur-2-3",
+    "title": "Biohazard Gun Survivor 2",
+    "region": 3,
+    "rarity": 2,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-bio-gun-sur-2-ps2-the-bes-3",
+    "title": "Biohazard Gun Survivor 2 PS2 The Best",
+    "region": 3,
+    "rarity": 0,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-res-evi-dea-aim-1",
+    "title": "Resident Evil Dead Aim",
+    "region": 1,
+    "rarity": 2,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-res-evi-dea-aim-2",
+    "title": "Resident Evil Dead Aim",
+    "region": 2,
+    "rarity": 2,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-bio-gun-sur-4-3",
+    "title": "Biohazard Gun Survivor 4",
+    "region": 3,
+    "rarity": 2,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-res-evi-out-1",
+    "title": "Resident Evil Outbreak",
+    "region": 1,
+    "rarity": 1,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-res-evi-out-pla-1",
+    "title": "Resident Evil Outbreak Platinum",
+    "region": 1,
+    "rarity": 2,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-res-evi-out-2",
+    "title": "Resident Evil Outbreak",
+    "region": 2,
+    "rarity": 1,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-res-evi-out-gre-hit-2",
+    "title": "Resident Evil Outbreak Greatest Hits",
+    "region": 2,
+    "rarity": 0,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-bio-out-3",
+    "title": "Biohazard Outbreak",
+    "region": 3,
+    "rarity": 2,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-bio-out-ps2-the-bes-0",
+    "title": "Biohazard Outbreak PS2 The Best",
+    "region": 0,
+    "rarity": 0,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-res-evi-out-fil-2-1",
+    "title": "Resident Evil Outbreak File #2",
+    "region": 1,
+    "rarity": 1,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-res-evi-out-fil-2-2",
+    "title": "Resident Evil Outbreak File #2",
+    "region": 2,
+    "rarity": 2,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-bio-out-fil-2-3",
+    "title": "Biohazard Outbreak File #2",
+    "region": 3,
+    "rarity": 2,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-res-evi-cod-ver-x-+-dem-dev-may-cry-1",
+    "title": "Resident Evil Code: Veronica X + Demo Devil May Cry",
+    "region": 1,
+    "rarity": 1,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-res-evi-cod-ver-x-1",
+    "title": "Resident Evil Code: Veronica X",
+    "region": 1,
+    "rarity": 2,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-res-evi-cod-ver-x-pla-1",
+    "title": "Resident Evil Code: Veronica X Platinum",
+    "region": 1,
+    "rarity": 1,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-res-evi-cod-ver-x-ps2-the-bes-of-1",
+    "title": "Resident Evil Code: Veronica X PS2 The Best Of",
+    "region": 1,
+    "rarity": 1,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-res-evi-cod-ver-x-2",
+    "title": "Resident Evil Code: Veronica X",
+    "region": 2,
+    "rarity": 1,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-res-evi-cod-ver-x-5th-ann-2",
+    "title": "Resident Evil Code: Veronica X 5th Anniversary",
+    "region": 2,
+    "rarity": 0,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-res-evi-cod-ver-x-gre-hit-2",
+    "title": "Resident Evil Code: Veronica X Greatest Hits",
+    "region": 2,
+    "rarity": 1,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-bio-cod-ver-x-com-3",
+    "title": "Biohazard Code: Veronica X (Complete)",
+    "region": 3,
+    "rarity": 2,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-bio-cod-ver-x-com-cap-res-evi-3",
+    "title": "Biohazard Code: Veronica X (Complete) CapKo Resident Evil",
+    "region": 3,
+    "rarity": 2,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-bio-cod-ver-x-com-o.s-3",
+    "title": "Biohazard Code: Veronica X (Complete) O.S.T.",
+    "region": 3,
+    "rarity": 0,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-bio-cod-ver-x-com-bes-pri-3",
+    "title": "Biohazard Code: Veronica X (Complete) (Best Price!)",
+    "region": 3,
+    "rarity": 2,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-res-evi-4-1",
+    "title": "Resident Evil 4",
+    "region": 1,
+    "rarity": 1,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-res-evi-4-pla-1",
+    "title": "Resident Evil 4 Platinum",
+    "region": 1,
+    "rarity": 1,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-res-evi-4-lim-edi-1",
+    "title": "Resident Evil 4 Limited Edition",
+    "region": 1,
+    "rarity": 2,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-res-evi-4-2",
+    "title": "Resident Evil 4",
+    "region": 2,
+    "rarity": 1,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-res-evi-4-gre-hit-2",
+    "title": "Resident Evil 4 Greatest Hits",
+    "region": 2,
+    "rarity": 0,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-res-evi-4-pre-edi-2",
+    "title": "Resident Evil 4 Premium Edition",
+    "region": 2,
+    "rarity": 0,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-bio-4-3",
+    "title": "Biohazard 4",
+    "region": 3,
+    "rarity": 2,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-bio-4-the-bes-of-ps-2-3",
+    "title": "Biohazard 4 The Best Of PS 2",
+    "region": 3,
+    "rarity": 2,
+    "platform": "ps2"
+  },
+  {
+    "id": "ps2-bio-4-ps2-the-bes-o.s-3",
+    "title": "Biohazard 4 PS2 The Best O.S.T.",
+    "region": 3,
+    "rarity": 2,
+    "platform": "ps2"
+  },
+  {
     "id": "ps1-res-evi-1",
     "title": "Resident Evil",
     "region": 1,
@@ -462,279 +707,6 @@
     "platform": "ps3"
   },
   {
-    "id": "ps2-res-evi-sur-2-1",
-    "title": "Resident Evil Survivor 2",
-    "region": 1,
-    "rarity": 2,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-bio-gun-sur-2-3",
-    "title": "Biohazard Gun Survivor 2",
-    "region": 3,
-    "rarity": 2,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-bio-gun-sur-2-ps2-the-bes-3",
-    "title": "Biohazard Gun Survivor 2 PS2 The Best",
-    "region": 3,
-    "rarity": 0,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-res-evi-dea-aim-1",
-    "title": "Resident Evil Dead Aim",
-    "region": 1,
-    "rarity": 2,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-res-evi-dea-aim-2",
-    "title": "Resident Evil Dead Aim",
-    "region": 2,
-    "rarity": 2,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-bio-gun-sur-4-3",
-    "title": "Biohazard Gun Survivor 4",
-    "region": 3,
-    "rarity": 2,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-res-evi-out-1",
-    "title": "Resident Evil Outbreak",
-    "region": 1,
-    "rarity": 1,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-res-evi-out-pla-1",
-    "title": "Resident Evil Outbreak Platinum",
-    "region": 1,
-    "rarity": 2,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-res-evi-out-2",
-    "title": "Resident Evil Outbreak",
-    "region": 2,
-    "rarity": 1,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-res-evi-out-gre-hit-2",
-    "title": "Resident Evil Outbreak Greatest Hits",
-    "region": 2,
-    "rarity": 0,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-bio-out-3",
-    "title": "Biohazard Outbreak",
-    "region": 3,
-    "rarity": 2,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-bio-out-ps2-the-bes-0",
-    "title": "Biohazard Outbreak PS2 The Best",
-    "region": 0,
-    "rarity": 0,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-res-evi-out-fil-2-1",
-    "title": "Resident Evil Outbreak File #2",
-    "region": 1,
-    "rarity": 1,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-res-evi-out-fil-2-2",
-    "title": "Resident Evil Outbreak File #2",
-    "region": 2,
-    "rarity": 2,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-bio-out-fil-2-3",
-    "title": "Biohazard Outbreak File #2",
-    "region": 3,
-    "rarity": 2,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-res-evi-cod-ver-x-+-dem-dev-may-cry-1",
-    "title": "Resident Evil Code: Veronica X + Demo Devil May Cry",
-    "region": 1,
-    "rarity": 1,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-res-evi-cod-ver-x-1",
-    "title": "Resident Evil Code: Veronica X",
-    "region": 1,
-    "rarity": 2,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-res-evi-cod-ver-x-pla-1",
-    "title": "Resident Evil Code: Veronica X Platinum",
-    "region": 1,
-    "rarity": 1,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-res-evi-cod-ver-x-ps2-the-bes-of-1",
-    "title": "Resident Evil Code: Veronica X PS2 The Best Of",
-    "region": 1,
-    "rarity": 1,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-res-evi-cod-ver-x-2",
-    "title": "Resident Evil Code: Veronica X",
-    "region": 2,
-    "rarity": 1,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-res-evi-cod-ver-x-5th-ann-2",
-    "title": "Resident Evil Code: Veronica X 5th Anniversary",
-    "region": 2,
-    "rarity": 0,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-res-evi-cod-ver-x-gre-hit-2",
-    "title": "Resident Evil Code: Veronica X Greatest Hits",
-    "region": 2,
-    "rarity": 1,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-bio-cod-ver-x-com-3",
-    "title": "Biohazard Code: Veronica X (Complete)",
-    "region": 3,
-    "rarity": 2,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-bio-cod-ver-x-com-cap-res-evi-3",
-    "title": "Biohazard Code: Veronica X (Complete) CapKo Resident Evil",
-    "region": 3,
-    "rarity": 2,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-bio-cod-ver-x-com-o.s-3",
-    "title": "Biohazard Code: Veronica X (Complete) O.S.T.",
-    "region": 3,
-    "rarity": 0,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-bio-cod-ver-x-com-bes-pri-3",
-    "title": "Biohazard Code: Veronica X (Complete) (Best Price!)",
-    "region": 3,
-    "rarity": 2,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-res-evi-4-1",
-    "title": "Resident Evil 4",
-    "region": 1,
-    "rarity": 1,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-res-evi-4-pla-1",
-    "title": "Resident Evil 4 Platinum",
-    "region": 1,
-    "rarity": 1,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-res-evi-4-lim-edi-1",
-    "title": "Resident Evil 4 Limited Edition",
-    "region": 1,
-    "rarity": 2,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-res-evi-4-2",
-    "title": "Resident Evil 4",
-    "region": 2,
-    "rarity": 1,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-res-evi-4-gre-hit-2",
-    "title": "Resident Evil 4 Greatest Hits",
-    "region": 2,
-    "rarity": 0,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-res-evi-4-pre-edi-2",
-    "title": "Resident Evil 4 Premium Edition",
-    "region": 2,
-    "rarity": 0,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-bio-4-3",
-    "title": "Biohazard 4",
-    "region": 3,
-    "rarity": 2,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-bio-4-the-bes-of-ps-2-3",
-    "title": "Biohazard 4 The Best Of PS 2",
-    "region": 3,
-    "rarity": 2,
-    "platform": "ps2"
-  },
-  {
-    "id": "ps2-bio-4-ps2-the-bes-o.s-3",
-    "title": "Biohazard 4 PS2 The Best O.S.T.",
-    "region": 3,
-    "rarity": 2,
-    "platform": "ps2"
-  },
-  {
-    "id": "ds-res-evi-dea-sil-1",
-    "title": "Resident Evil Deadly Silence",
-    "region": 1,
-    "rarity": 2,
-    "platform": "ds"
-  },
-  {
-    "id": "ds-res-evi-dea-sil-2",
-    "title": "Resident Evil Deadly Silence",
-    "region": 2,
-    "rarity": 2,
-    "platform": "ds"
-  },
-  {
-    "id": "ds-bio-dea-sil-3",
-    "title": "Biohazard Deadly Silence",
-    "region": 3,
-    "rarity": 2,
-    "platform": "ds"
-  },
-  {
-    "id": "ds-bio-bes-pri-dea-sil-3",
-    "title": "Biohazard (Best Price!) Deadly Silence",
-    "region": 3,
-    "rarity": 0,
-    "platform": "ds"
-  },
-  {
     "id": "3ds-res-evi-the-me-red-col-ena-3d-1",
     "title": "Resident Evil The Me Red Collection Enaries 3D",
     "region": 1,
@@ -791,6 +763,34 @@
     "platform": "3ds"
   },
   {
+    "id": "ds-res-evi-dea-sil-1",
+    "title": "Resident Evil Deadly Silence",
+    "region": 1,
+    "rarity": 2,
+    "platform": "ds"
+  },
+  {
+    "id": "ds-res-evi-dea-sil-2",
+    "title": "Resident Evil Deadly Silence",
+    "region": 2,
+    "rarity": 2,
+    "platform": "ds"
+  },
+  {
+    "id": "ds-bio-dea-sil-3",
+    "title": "Biohazard Deadly Silence",
+    "region": 3,
+    "rarity": 2,
+    "platform": "ds"
+  },
+  {
+    "id": "ds-bio-bes-pri-dea-sil-3",
+    "title": "Biohazard (Best Price!) Deadly Silence",
+    "region": 3,
+    "rarity": 0,
+    "platform": "ds"
+  },
+  {
     "id": "wiiu-res-evi-rev-1",
     "title": "Resident Evil Revelations",
     "region": 1,
@@ -831,6 +831,146 @@
     "region": 3,
     "rarity": 1,
     "platform": "ss"
+  },
+  {
+    "id": "wii-a-red-col-hiv-res-evi-zer-1",
+    "title": "A Red Collection Hives: Resident Evil Zero",
+    "region": 1,
+    "rarity": 1,
+    "platform": "wii"
+  },
+  {
+    "id": "wii-a-red-col-hiv-res-evi-zer-2",
+    "title": "A Red Collection Hives: Resident Evil Zero",
+    "region": 2,
+    "rarity": 1,
+    "platform": "wii"
+  },
+  {
+    "id": "wii-bio-zer-3",
+    "title": "Biohazard Zero",
+    "region": 3,
+    "rarity": 2,
+    "platform": "wii"
+  },
+  {
+    "id": "wii-bio-zer-bes-pri-3",
+    "title": "Biohazard Zero (Best Price!)",
+    "region": 3,
+    "rarity": 0,
+    "platform": "wii"
+  },
+  {
+    "id": "wii-a-red-col-hiv-res-evi-1",
+    "title": "A Red Collection Hives: Resident Evil",
+    "region": 1,
+    "rarity": 1,
+    "platform": "wii"
+  },
+  {
+    "id": "wii-a-red-col-hiv-res-evi-2",
+    "title": "A Red Collection Hives: Resident Evil",
+    "region": 2,
+    "rarity": 1,
+    "platform": "wii"
+  },
+  {
+    "id": "wii-bio-3",
+    "title": "Biohazard",
+    "region": 3,
+    "rarity": 2,
+    "platform": "wii"
+  },
+  {
+    "id": "wii-bio-bes-pri-3",
+    "title": "Biohazard (Best Price!)",
+    "region": 3,
+    "rarity": 0,
+    "platform": "wii"
+  },
+  {
+    "id": "wii-res-evi-the-umb-chr-1",
+    "title": "Resident Evil The Umbrella Chronicles",
+    "region": 1,
+    "rarity": 1,
+    "platform": "wii"
+  },
+  {
+    "id": "wii-res-evi-the-umb-chr-1",
+    "title": "Resident Evil The Umbrella Chronicles",
+    "region": 1,
+    "rarity": 1,
+    "platform": "wii"
+  },
+  {
+    "id": "wii-bio-the-umb-chr-1",
+    "title": "Biohazard The Umbrella Chronicles",
+    "region": 1,
+    "rarity": 2,
+    "platform": "wii"
+  },
+  {
+    "id": "wii-bio-the-umb-chr-bes-pri-1",
+    "title": "Biohazard The Umbrella Chronicles (Best Price!)",
+    "region": 1,
+    "rarity": 0,
+    "platform": "wii"
+  },
+  {
+    "id": "wii-res-evi-the-dar-chr-1",
+    "title": "Resident Evil The Dark Chronicles",
+    "region": 1,
+    "rarity": 1,
+    "platform": "wii"
+  },
+  {
+    "id": "wii-res-evi-the-dar-chr-2",
+    "title": "Resident Evil The Dark Chronicles",
+    "region": 2,
+    "rarity": 1,
+    "platform": "wii"
+  },
+  {
+    "id": "wii-bio-the-dar-chr-3",
+    "title": "Biohazard The Dark Chronicles",
+    "region": 3,
+    "rarity": 2,
+    "platform": "wii"
+  },
+  {
+    "id": "wii-bio-the-dar-chr-bes-pri-3",
+    "title": "Biohazard The Dark Chronicles (Best Price!)",
+    "region": 3,
+    "rarity": 0,
+    "platform": "wii"
+  },
+  {
+    "id": "wii-res-evi-4-1",
+    "title": "Resident Evil 4",
+    "region": 1,
+    "rarity": 1,
+    "platform": "wii"
+  },
+  {
+    "id": "wii-res-evi-4-2",
+    "title": "Resident Evil 4",
+    "region": 2,
+    "rarity": 1,
+    "platform": "wii"
+  },
+  {
+    "id": "wii-bio-4-wii-edi-3",
+    "title": "Biohazard 4 Wii Edition",
+    "region": 3,
+    "rarity": 0,
+    "platform": "wii"
+  },
+  {
+    "id": "wii-bio-4-wii-edi-bes-pri-3",
+    "title": "Biohazard 4 Wii Edition (Best Price!)",
+    "region": 3,
+    "rarity": 2,
+    "platform": "wii"
   },
   {
     "id": "dc-res-evi-2-1",
@@ -1090,146 +1230,6 @@
     "region": 3,
     "rarity": 2,
     "platform": "gc"
-  },
-  {
-    "id": "wii-a-red-col-hiv-res-evi-zer-1",
-    "title": "A Red Collection Hives: Resident Evil Zero",
-    "region": 1,
-    "rarity": 1,
-    "platform": "wii"
-  },
-  {
-    "id": "wii-a-red-col-hiv-res-evi-zer-2",
-    "title": "A Red Collection Hives: Resident Evil Zero",
-    "region": 2,
-    "rarity": 1,
-    "platform": "wii"
-  },
-  {
-    "id": "wii-bio-zer-3",
-    "title": "Biohazard Zero",
-    "region": 3,
-    "rarity": 2,
-    "platform": "wii"
-  },
-  {
-    "id": "wii-bio-zer-bes-pri-3",
-    "title": "Biohazard Zero (Best Price!)",
-    "region": 3,
-    "rarity": 0,
-    "platform": "wii"
-  },
-  {
-    "id": "wii-a-red-col-hiv-res-evi-1",
-    "title": "A Red Collection Hives: Resident Evil",
-    "region": 1,
-    "rarity": 1,
-    "platform": "wii"
-  },
-  {
-    "id": "wii-a-red-col-hiv-res-evi-2",
-    "title": "A Red Collection Hives: Resident Evil",
-    "region": 2,
-    "rarity": 1,
-    "platform": "wii"
-  },
-  {
-    "id": "wii-bio-3",
-    "title": "Biohazard",
-    "region": 3,
-    "rarity": 2,
-    "platform": "wii"
-  },
-  {
-    "id": "wii-bio-bes-pri-3",
-    "title": "Biohazard (Best Price!)",
-    "region": 3,
-    "rarity": 0,
-    "platform": "wii"
-  },
-  {
-    "id": "wii-res-evi-the-umb-chr-1",
-    "title": "Resident Evil The Umbrella Chronicles",
-    "region": 1,
-    "rarity": 1,
-    "platform": "wii"
-  },
-  {
-    "id": "wii-res-evi-the-umb-chr-1",
-    "title": "Resident Evil The Umbrella Chronicles",
-    "region": 1,
-    "rarity": 1,
-    "platform": "wii"
-  },
-  {
-    "id": "wii-bio-the-umb-chr-1",
-    "title": "Biohazard The Umbrella Chronicles",
-    "region": 1,
-    "rarity": 2,
-    "platform": "wii"
-  },
-  {
-    "id": "wii-bio-the-umb-chr-bes-pri-1",
-    "title": "Biohazard The Umbrella Chronicles (Best Price!)",
-    "region": 1,
-    "rarity": 0,
-    "platform": "wii"
-  },
-  {
-    "id": "wii-res-evi-the-dar-chr-1",
-    "title": "Resident Evil The Dark Chronicles",
-    "region": 1,
-    "rarity": 1,
-    "platform": "wii"
-  },
-  {
-    "id": "wii-res-evi-the-dar-chr-2",
-    "title": "Resident Evil The Dark Chronicles",
-    "region": 2,
-    "rarity": 1,
-    "platform": "wii"
-  },
-  {
-    "id": "wii-bio-the-dar-chr-3",
-    "title": "Biohazard The Dark Chronicles",
-    "region": 3,
-    "rarity": 2,
-    "platform": "wii"
-  },
-  {
-    "id": "wii-bio-the-dar-chr-bes-pri-3",
-    "title": "Biohazard The Dark Chronicles (Best Price!)",
-    "region": 3,
-    "rarity": 0,
-    "platform": "wii"
-  },
-  {
-    "id": "wii-res-evi-4-1",
-    "title": "Resident Evil 4",
-    "region": 1,
-    "rarity": 1,
-    "platform": "wii"
-  },
-  {
-    "id": "wii-res-evi-4-2",
-    "title": "Resident Evil 4",
-    "region": 2,
-    "rarity": 1,
-    "platform": "wii"
-  },
-  {
-    "id": "wii-bio-4-wii-edi-3",
-    "title": "Biohazard 4 Wii Edition",
-    "region": 3,
-    "rarity": 0,
-    "platform": "wii"
-  },
-  {
-    "id": "wii-bio-4-wii-edi-bes-pri-3",
-    "title": "Biohazard 4 Wii Edition (Best Price!)",
-    "region": 3,
-    "rarity": 2,
-    "platform": "wii"
   },
   {
     "id": "360-res-evi-5-1",
@@ -1638,7 +1638,7 @@
     "platform": "pc"
   },
   {
-    "id": "pc-res-evi-rem-&-zer-8",
+    "id": "pc-res-evi-rem--zer-8",
     "title": "Resident Evil Remake & Zero",
     "region": 8,
     "rarity": 0,
