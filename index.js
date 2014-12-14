@@ -59,6 +59,7 @@ var getTitles = function(platform, cb) {
 
       var data = dataFromSrc($(this).attr('src'));
       titles.push({
+        id: data.id,
         title: data.title,
         region: data.region,
         rarity: rarity($(this).siblings().text()),

@@ -100,13 +100,21 @@ var getRegion = function(title) {
   return 0;
 };
 
+var ID = function(region, platform, title) {
+  title = title.replace(/[\!\#\(\)]/gi, '').split(' ');
+  title = title.map(function(el) {
+    return el.substr(0, 3);
+  });
+
+  return platform + '-' + title.join('-').toLowerCase() + '-' + region;
+};
+
 module.exports = function(src) {
   src = src.split('/');
-
   var platform = src[1];
-  var region = getRegion(src);
 
   src = src.pop();
+  var region = getRegion(src);
 
   for (var i in regions) {
     src = src.replace('_' + i, '');
@@ -119,13 +127,14 @@ module.exports = function(src) {
   src = src.replace(/\_/g, ' ');
   src = src.replace(/[ ]{2,}/g, ' ');
 
-  if (platform === 'ds'){
+  if (platform === 'ds') {
     src += 'Deadly Silence';
   }
 
   return {
     region: region,
     title: src.capitalize().trim(),
+    id: ID(region, platform, src.trim()),
     platform: platform
   };
 };

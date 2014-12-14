@@ -9,7 +9,8 @@
     "precommit-hook": "^1.0.7"
   },
   "scripts": {
-    "lint": "node node_modules/jshint/bin/jshint ."
+    "lint": "node node_modules/jshint/bin/jshint .",
+    "generate": "node index.js"
   },
   "dependencies": {
     "async": "^0.9.0",
