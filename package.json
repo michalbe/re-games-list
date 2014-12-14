@@ -1,6 +1,6 @@
 {
   "name": "re-games-list",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "Michał Budzyński <michal@virtualdesign.pl>",
   "repository": "https://github.com/michalbe/re-games-list",
   "devDependencies": {
@@ -13,7 +13,7 @@
     "generate": "node index.js"
   },
   "bin": {
-    "re-games-list": "node index.js"
+    "re-games-list": "index.js"
   },
   "dependencies": {
     "async": "^0.9.0",
