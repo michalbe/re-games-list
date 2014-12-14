@@ -2,6 +2,8 @@
 
 var request = require('request');
 var cheerio = require('cheerio');
+var src2title = require('./src2title.js');
+
 var url = 'http://www.michaelchandler.residentevilcenter.net/';
 
 var $;
@@ -37,11 +39,40 @@ var getPlatforms = function(cb) {
   });
 };
 
-getPlatforms(function(err, platforms) {
-  if (err) {
-    console.log(err);
-    return;
-  }
+var getTitles = function(platform, cb) {
+  var titles = [];
 
-  console.log(platforms);
-});
+  request(url + platform.url, function(err, req, body) {
+
+    if (err) {
+      cb(err);
+      return;
+    }
+
+    $ = cheerio.load(body, { normalizeWhitespace: true });
+    var images = $('.grow img');
+    images.each(function() {
+
+      titles.push({
+        title: src2title($(this).attr('src'))
+      });
+    });
+
+    cb(null, titles);
+  });
+};
+
+var start = function(){
+  getPlatforms(function(err, platforms) {
+    if (err) {
+      console.log(err);
+      return;
+    }
+
+    getTitles(platforms[0], function(err, titles) {
+      console.log(titles);
+    });
+  });
+};
+
+start();
